@@ -44,19 +44,19 @@ GOOGLE_API_KEY=your_google_api_key_here
 pip install -r requirements.txt
 ```
 
-3. Run Locally
-1. Place your hotel knowledge base in a file named pdf_text.txt in the root directory.
-2. Start the Flask app:
+### **3. Run Locally
+- Place your hotel knowledge base in a file named pdf_text.txt in the root directory.
+- Start the Flask app:
 ```bash
 python app.py
 ```
-3. Open the app at http://localhost:5000/.
+- Open the app at http://localhost:5000/.
 
-Deployment on Render
+### Deployment on Render
 The chatbot is deployed and live on Render. You can access it here:
 https://personalchatbot.onrender.com
 
-File Structure
+### File Structure
 ```bash
 hotel-assistant-chatbot/
 ├── app.py                 # Main application code
@@ -69,18 +69,18 @@ hotel-assistant-chatbot/
 └── Dockerfile             # Docker configuration for deployment
 ```
 
-How to Interact with ViviBot
-Open the live link: https://personalchatbot.onrender.com.
-Ask any hotel-related questions, such as:
-"Where is your hotel?"
-"What facilities do you offer?"
-"What are the check-in and check-out times?"
-ViviBot will respond with accurate and professional answers!
+### How to Interact with ViviBot
+- Open the live link: https://personalchatbot.onrender.com.
+- Ask any hotel-related questions, such as:
+- "Where is your hotel?"
+- "What facilities do you offer?"
+- "What are the check-in and check-out times?"
+- ViviBot will respond with accurate and professional answers!
 
-Future Enhancements
-Add multilingual support.
-Expand the knowledge base with more detailed information about hotel services and nearby attractions.
-Integrate voice commands for a more interactive experience.
+### Future Enhancements
+- Add multilingual support.
+- Expand the knowledge base with more detailed information about hotel services and nearby attractions.
+- Integrate voice commands for a more interactive experience.
 
-Author
-Developed by Dattatray Bodake. Contributions and feedback are welcome! 😊
+### Author
+- Developed by Dattatray Bodake. Contributions and feedback are welcome! 😊
